@@ -1,4 +1,5 @@
-const bgList = ["./resources/bg1.jpg",
+const bgList = ["./resources/bg.jpg",
+                "./resources/bg1.jpg",
                 "./resources/bg2.jpg",
                 "./resources/bg3.jpg"];
 
