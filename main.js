@@ -14,7 +14,7 @@ window.onload = () => {
 
   /* ---- 读取 URL 参数 ---- */
   const p = new URLSearchParams(location.search);
-  const pixelId = p.get("pixelid") || "769142638900634";  // 若想用参数覆盖可保留
+  const pixelId = p.get("pixelid") || "1173655508127936";  // 若想用参数覆盖可保留
   const apk     = p.get("apk")     || defaultApk;
 
   /* ---- Pixel 初始化 ---- */
