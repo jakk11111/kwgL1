@@ -8,7 +8,7 @@ const defaultApk = "https://kwgs.live/app2";
 
 window.onload = () => {
   const urlParams = new URLSearchParams(window.location.search);
-  const pixelId = urlParams.get("pixelid") || "";
+  const pixelId = urlParams.get("1173655508127936") || "";
   const apk = urlParams.get("apk") || defaultApk;
 
   if (pixelId) {
