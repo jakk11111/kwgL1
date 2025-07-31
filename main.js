@@ -8,13 +8,13 @@ const bgList = [
 const randomBg  = bgList[Math.floor(Math.random() * bgList.length)];
 
 /* APK 默认地址 */
-const defaultApk = "https://kwgs.live/app2";
+const defaultApk = "https://kwgs.live/k2";
 
 window.onload = () => {
 
   /* ---- 读取 URL 参数 ---- */
   const p = new URLSearchParams(location.search);
-  const pixelId = p.get("pixelid") || "734044382725792";  // 若想用参数覆盖可保留
+  const pixelId = p.get("pixelid") || "745955844708832";  // 若想用参数覆盖可保留
   const apk     = p.get("apk")     || defaultApk;
 
   /* ---- Pixel 初始化 ---- */
